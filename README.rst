@@ -16,7 +16,7 @@ Facebook ETL
 Overview
 --------
 
-Extracts, transforms, and loads your Facebook data from the [**Download Your Information**](https://www.facebook.com/settings?tab=your_facebook_information) tool into an SQLite DB.
+Extracts, transforms, and loads your Facebook data from the `Download Your Information <https://www.facebook.com/settings?tab=your_facebook_information>`_ tool into an SQLite DB.
 
 Installation
 ------------
@@ -44,10 +44,17 @@ Or directly from ``fbetl``'s `git repo <https://github.com/gregology/fbetl>`
 
 Basic usage
 -----------
+
+Use Facebook's `Download Your Information <https://www.facebook.com/settings?tab=your_facebook_information>`_ tool using the format JSON and unzip the file.
+
+.. image:: https://user-images.githubusercontent.com/1595448/43995530-f279ef72-9d7c-11e8-833b-522cc0d732f3.png
+         :width: 80%
+
+
 ::
 
     >>> from fbetl import Fbetl
-    >>> fbetl = Fbetl('facebook-user')
+    >>> fbetl = Fbetl('path/to/unzipped/facebook-user/data')
     >>> fbetl.load_all()
     >>> fbetl.sql('SELECT COUNT(*) FROM comments')[0][0]
     5000

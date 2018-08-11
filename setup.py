@@ -16,7 +16,7 @@ setup(
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python'
   ],
-  keywords='spot',
+  keywords='facebook, data',
   packages=find_packages(),
   package_data={
     'fbetl': []

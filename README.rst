@@ -60,6 +60,7 @@ Use Facebook's `Download Your Information <https://www.facebook.com/settings?tab
     5000
     >>> fbetl.sql('SELECT timestamp FROM posts LIMIT 5;')
     [('2018-07-27 14:04:24',), ('2018-07-23 11:34:12',), ('2018-07-17 09:47:19',), ('2018-07-13 23:56:44',), ('2018-07-12 09:54:13',)]
+    >>> fbetl.save('foo.db') # Saves SQLite db to disk
 
 
 Running Test

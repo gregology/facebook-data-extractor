@@ -1,0 +1,60 @@
+{
+  "status_updates": [
+    {
+      "timestamp": 1500000000,
+      "attachments": [
+        {
+          "data": [
+            {
+              "external_context": {
+                "url": "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "data": [
+        {
+          "post": "Me working..."
+        }
+      ],
+      "title": "Me Myself posted in Cats Are Awesome."
+    },
+    {
+      "timestamp": 1510000000,
+      "data": [
+        {
+          "post": "Do you own a cat?"
+        }
+      ],
+      "title": "Me Myself wrote on My Firends's Timeline."
+    },
+    {
+      "timestamp": 1520000000,
+      "attachments": [
+        {
+          "data": [
+            {
+              "media": {
+                "uri": "photos_and_videos/MobileUploads_42.jpg",
+                "comments": [
+                  {
+                    "timestamp": 1520000000,
+                    "comment": "Wow!",
+                    "author": "Another Friend"
+                  }
+                ],
+                "description": "I found a cat!"
+              }
+            }
+          ]
+        }
+      ],
+      "data": [
+        {
+          "post": "I found a cat!"
+        }
+      ]
+    }
+  ]
+}

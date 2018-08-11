@@ -1,0 +1,28 @@
+{
+  "reactions": [
+    {
+      "timestamp": 1500000000,
+      "data": [
+        {
+          "reaction": {
+            "reaction": "LIKE",
+            "actor": "Me Myself"
+          }
+        }
+      ],
+      "title": "Me Myself likes My Friends's post in Cats Are Awesome."
+    },
+    {
+      "timestamp": 1500000000,
+      "data": [
+        {
+          "reaction": {
+            "reaction": "LOVE",
+            "actor": "Me Myself"
+          }
+        }
+      ],
+      "title": "Me Myself likes My Friends's post in Cats Are Cool."
+    }
+  ]
+}

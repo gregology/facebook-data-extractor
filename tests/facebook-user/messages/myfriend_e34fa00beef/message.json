@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "sender_name": "My Friend",
+      "timestamp_ms": 1500000000000,
+      "content": "Hi Friend!",
+      "type": "Generic"
+    }
+  ],
+  "title": "Friend",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "participants": [
+    "My Friend"
+  ],
+  "thread_path": "myfriend_e34fa00beef"
+}

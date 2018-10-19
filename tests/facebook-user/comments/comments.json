@@ -29,6 +29,29 @@
       "title": "Me Myself commented on My Friends's photo."
     },
     {
+      "timestamp": 1510000000,
+      "attachments": [
+        {
+          "data": [
+            {
+              "media": {
+                "uri": "photos_and_videos/your_posts/42.jpg"              }
+            }
+          ]
+        }
+      ],
+      "data": [
+        {
+          "comment": {
+            "timestamp": 1510000000,
+            "author": "Me Myself",
+            "group": "Dogs"
+          }
+        }
+      ],
+      "title": "Me Myself commented on his own post."
+    },
+    {
       "timestamp": 1520000000,
       "attachments": [
         {

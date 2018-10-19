@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='fbetl',
-  version='0.1.1',
+  version='0.1.2',
   description='',
   long_description=open('README.rst').read(),
   url='https://github.com/gregology/fbetl',

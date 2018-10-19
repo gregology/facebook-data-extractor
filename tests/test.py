@@ -8,7 +8,7 @@ class TestFbetl(unittest.TestCase):
     fbetl.load_comments()
 
     comments_count = fbetl.sql('SELECT COUNT(*) FROM comments;')[0][0]
-    self.assertTrue(comments_count == 3)
+    self.assertTrue(comments_count == 4)
 
   def test_load_reactions(self):
     fbetl = Fbetl('tests/facebook-user')

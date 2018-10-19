@@ -11,7 +11,6 @@ class Comments(Extractor):
         text      TEXT,
         url       TEXT,
         uri       TEXT,
-        post_by   TEXT,
         timestamp DATETIME NOT NULL
       );
     ''')
@@ -46,7 +45,7 @@ class Comments(Extractor):
     comment['timestamp'] = self.extract_time(raw_comment['timestamp'])
 
     if 'data' in raw_comment.keys():
-      comment['text'] = self.sql_safe(raw_comment['data'][0]['comment']['comment'])
+      comment['text'] = self.sql_safe(raw_comment['data'][0]['comment'].get('comment')) or ''
     if 'attachments' in raw_comment.keys():
       for attachment in raw_comment['attachments'][0]['data']:
         if 'external_context' in attachment.keys():

@@ -27,7 +27,9 @@ class Extractor(object):
     return datetime.fromtimestamp(unix_epoch_time).strftime('%Y-%m-%d %H:%M:%S')
 
   def sql_safe(self, text):
-    return text.replace("'","''")
+    if text != None:
+      return text.replace("'","''")
+
 
   def sql(self, query):
     return self.db.execute(query).fetchall()
